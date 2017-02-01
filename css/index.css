@@ -1,0 +1,8 @@
+body {
+  background-image: url(../imgs/city_today.jpeg);
+}
+
+#black_filter {
+  background-color: black;
+  opacity: .5;
+}
