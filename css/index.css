@@ -1,8 +1,41 @@
-body {
-  background-image: url(../imgs/city_today.jpeg);
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+}
+html {
+  background: black url(../imgs/cavepeople.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
-#black_filter {
+@font-face {
+  font-family: "DigitalTime";
+  font-weight: bold;
+  src: url(../fonts/DS-DIGI.TTF) format("truetype");
+}
+
+#container {
+  display: table;
+  margin: 0 auto;
+}
+
+#digital_time {
   background-color: black;
-  opacity: .5;
+  text-align: center;
+  border-radius: 10px;
+  width: 450px;
+  opacity: .9;
+}
+
+#time {
+  font-family: "DigitalTime", Verdana;
+  font-size: 200px;
+  color: white;
+  margin: 0;
+}
+
+#time_slider{
+  width: 450px;
+  background-color: black;
 }
