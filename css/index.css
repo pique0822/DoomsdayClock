@@ -66,3 +66,17 @@ html {
   width: 35%;
   background-color: black;
 }
+
+#textbox {
+  position: absolute;
+  left: 20%;
+  width: 60%;
+  background-color: black;
+  border-radius: 10px;
+  opacity: .9;
+}
+
+#textbox p {
+  color: white;
+  margin: 10px;
+}
